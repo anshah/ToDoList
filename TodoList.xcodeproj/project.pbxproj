@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64129AC6188D6F9200E33E9A /* ToDo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64129AC5188D6F9200E33E9A /* ToDo.plist */; };
 		64BC0BF0188D424100476FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BC0BEF188D424100476FAD /* Foundation.framework */; };
 		64BC0BF2188D424100476FAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BC0BF1188D424100476FAD /* CoreGraphics.framework */; };
 		64BC0BF4188D424100476FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BC0BF3188D424100476FAD /* UIKit.framework */; };
@@ -14,13 +15,14 @@
 		64BC0BFC188D424100476FAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BC0BFB188D424100476FAD /* main.m */; };
 		64BC0C00188D424100476FAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BC0BFF188D424100476FAD /* AppDelegate.m */; };
 		64BC0C03188D424100476FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BC0C01188D424100476FAD /* Main.storyboard */; };
-		64BC0C06188D424100476FAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BC0C05188D424100476FAD /* ViewController.m */; };
 		64BC0C08188D424100476FAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BC0C07188D424100476FAD /* Images.xcassets */; };
 		64BC0C0F188D424100476FAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BC0C0E188D424100476FAD /* XCTest.framework */; };
 		64BC0C10188D424100476FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BC0BEF188D424100476FAD /* Foundation.framework */; };
 		64BC0C11188D424100476FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BC0BF3188D424100476FAD /* UIKit.framework */; };
 		64BC0C19188D424100476FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64BC0C17188D424100476FAD /* InfoPlist.strings */; };
 		64BC0C1B188D424100476FAD /* TodoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BC0C1A188D424100476FAD /* TodoListTests.m */; };
+		64BC0C26188D445C00476FAD /* TodoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BC0C25188D445C00476FAD /* TodoListViewController.m */; };
+		64BC0C29188D447100476FAD /* Todos.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BC0C28188D447100476FAD /* Todos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64129AC5188D6F9200E33E9A /* ToDo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToDo.plist; sourceTree = "<group>"; };
 		64BC0BEC188D424100476FAD /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BC0BEF188D424100476FAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64BC0BF1188D424100476FAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +48,16 @@
 		64BC0BFE188D424100476FAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64BC0BFF188D424100476FAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		64BC0C02188D424100476FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		64BC0C04188D424100476FAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64BC0C05188D424100476FAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		64BC0C07188D424100476FAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		64BC0C0D188D424100476FAD /* TodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BC0C0E188D424100476FAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		64BC0C16188D424100476FAD /* TodoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TodoListTests-Info.plist"; sourceTree = "<group>"; };
 		64BC0C18188D424100476FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64BC0C1A188D424100476FAD /* TodoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoListTests.m; sourceTree = "<group>"; };
+		64BC0C24188D445C00476FAD /* TodoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListViewController.h; sourceTree = "<group>"; };
+		64BC0C25188D445C00476FAD /* TodoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListViewController.m; sourceTree = "<group>"; };
+		64BC0C27188D447100476FAD /* Todos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todos.h; sourceTree = "<group>"; };
+		64BC0C28188D447100476FAD /* Todos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +120,13 @@
 				64BC0BFE188D424100476FAD /* AppDelegate.h */,
 				64BC0BFF188D424100476FAD /* AppDelegate.m */,
 				64BC0C01188D424100476FAD /* Main.storyboard */,
-				64BC0C04188D424100476FAD /* ViewController.h */,
-				64BC0C05188D424100476FAD /* ViewController.m */,
 				64BC0C07188D424100476FAD /* Images.xcassets */,
 				64BC0BF6188D424100476FAD /* Supporting Files */,
+				64BC0C24188D445C00476FAD /* TodoListViewController.h */,
+				64BC0C25188D445C00476FAD /* TodoListViewController.m */,
+				64BC0C27188D447100476FAD /* Todos.h */,
+				64BC0C28188D447100476FAD /* Todos.m */,
+				64129AC5188D6F9200E33E9A /* ToDo.plist */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 			files = (
 				64BC0C08188D424100476FAD /* Images.xcassets in Resources */,
 				64BC0BFA188D424100476FAD /* InfoPlist.strings in Resources */,
+				64129AC6188D6F9200E33E9A /* ToDo.plist in Resources */,
 				64BC0C03188D424100476FAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64BC0C06188D424100476FAD /* ViewController.m in Sources */,
 				64BC0C00188D424100476FAD /* AppDelegate.m in Sources */,
 				64BC0BFC188D424100476FAD /* main.m in Sources */,
+				64BC0C26188D445C00476FAD /* TodoListViewController.m in Sources */,
+				64BC0C29188D447100476FAD /* Todos.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +470,7 @@
 				64BC0C20188D424100476FAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64BC0C21188D424100476FAD /* Build configuration list for PBXNativeTarget "TodoListTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +479,7 @@
 				64BC0C23188D424100476FAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

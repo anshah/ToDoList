@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TodoListViewController.h
 //  TodoList
 //
 //  Created by Ankit Nitin Shah on 1/20/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TodoListViewController : UITableViewController <UITextViewDelegate>
 
 @end

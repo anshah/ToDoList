@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Groceries: Butter, salt, flour</string>
+	<string>Places to visit: San Francisco, Sunnyvale, Santa Clara, Fremont, San Jose</string>
+	<string>Movies to watch: Speed, Transported, Life of PI, Avatar, How to train your dragon, Home alone 1, Home alone 2,  Jurrasic Park, Snow man, Liar Liar</string>
+	<string>Restaurants to try: Spices, Curry, Noodles, Pizza, Sandwitch, Tacos</string>
+</array>
+</plist>
